@@ -1,0 +1,7 @@
+background: #fcef00; /* Old browsers */
+background: -moz-linear-gradient(top, #fcef00 0%, #87f961 56%, #87f961 84%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #fcef00 0%,#87f961 56%,#87f961 84%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #fcef00 0%,#87f961 56%,#87f961 84%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcef00', endColorstr='#87f961',GradientType=0 ); /* IE6-9 */}
+		h1 { font-size: 15pt; }
+		p { font-size: 10pt; }
