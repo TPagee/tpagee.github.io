@@ -1,8 +1,6 @@
 body {
-  background-image: url(rocket.png);
-  background-position: right top;
+  background-image:url('rocket.png');
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-color: #464646;
+  background-size: contain;
+  background-position: center;
 }
