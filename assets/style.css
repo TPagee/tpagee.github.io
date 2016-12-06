@@ -6,7 +6,7 @@ body {
     background: linear-gradient(#FF69B4, #343D46); /* Standard syntax */
 }
 body {
-    background-image: url("https://openclipart.org/image/2400px/svg_to_png/261338/four-window-rocket.png");
+    background-image: url("rocket.png");
     background-repeat: no-repeat;
     background-position: right top;
     background-attachment: fixed;
