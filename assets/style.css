@@ -4,3 +4,7 @@ body {
   background-size: contain;
   background-position: top right;
 }
+
+#nav li {
+  text-align: center;
+}
