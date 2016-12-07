@@ -7,6 +7,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -22,7 +24,27 @@
   <link rel="stylesheet" href="assets/picnic.css" /> 
   <link rel="stylesheet" href="assets/style.css" />
 </head>
+	<style>
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+}
+</style>
 <body>
+	<script>
+$(document).ready(function(){
+  $('.dropdown-submenu a.test').on("click", function(e){
+    $(this).next('ul').toggle();
+    e.stopPropagation();
+    e.preventDefault();
+  });
+});
+</script>
   <h1> Welcome to my portfolio </h1>
   
   <div class="collapse navbar-collapse js-navbar-collapse">
@@ -31,7 +53,7 @@
 	      <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <font size="4"> Content </font> <span class="glyphicon glyphicon-chevron-down pull-right"></span> </a>
 		<ul id="nav" class="dropdown-menu mega-dropdown-menu row">
 		 <li class="col-sm-3">
-			</div>
+			
 			
     </ul>
   </div>
