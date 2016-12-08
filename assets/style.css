@@ -1,8 +1,7 @@
 body {
   background-image:url('rockett.png');
   background-repeat: no-repeat;
-  background-size: 50%;
-  background-position: right bottom;
+  background-size: 100%;
 }
 
 #nav li {
