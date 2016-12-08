@@ -1,7 +1,7 @@
 body {
   background-image:url('rocket.png');
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 50%;
   background-position: right bottom;
 }
 
