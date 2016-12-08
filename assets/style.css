@@ -2,7 +2,7 @@ body {
   background-image:url('rocket.png');
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: bottom right;
+  background-position: right bottom;
 }
 
 #nav li {
