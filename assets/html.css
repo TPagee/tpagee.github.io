@@ -1,9 +1,3 @@
- background: #ffffff;
-background: -moz-linear-gradient(left, #ffffff 0%, #0a0e0a 78%, #0a0809 89%, #0a0809 89%);
-background: -webkit-linear-gradient(left, #ffffff 0%,#0a0e0a 78%,#0a0809 89%,#0a0809 89%);
-background: linear-gradient(to right, #ffffff 0%,#0a0e0a 78%,#0a0809 89%,#0a0809 89%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#0a0809',GradientType=1 );
-	#nav li 
 
 {
   text-align: center;
