@@ -6,6 +6,9 @@ body {
 {
   text-align: centre;
 }
+div.static {
+    position: relative;
+}
 h2 {
 	text-align: left;
 }
