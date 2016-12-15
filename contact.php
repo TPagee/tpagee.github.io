@@ -12,7 +12,7 @@ $mail_status = mail($mail_to, $subject, $body_message, $headers);
 if ($mail_status) { ?>
     <script language="javascript" type="text/javascript">
         // Print a message
-        alert('Thank you for the message. We will contact you shortly.');
+        alert('Thank you for the message. I will contact you shortly.');
         // Redirect to some page of the site. You can also specify full URL, e.g. http://template-help.com
         window.location = 'contact_page.html';
     </script>
@@ -21,9 +21,9 @@ if ($mail_status) { ?>
 else { ?>
     <script language="javascript" type="text/javascript">
         // Print a message
-        alert('Message failed. Please, send an email to gordon@template-help.com');
+        alert('Message failed. Please, send an email to alpha');
         // Redirect to some page of the site. You can also specify full URL, e.g. http://template-help.com
-        window.location = 'contact_page.html';
+        window.location = 'index.html';
     </script>
 <?php
 }?>
