@@ -7,6 +7,9 @@ body {
 h2 {
 	text-align: left;
 }
+#contact_form{ width: 200px;
+
+}
 
 #nav li {
   text-align: left;
