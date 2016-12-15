@@ -26,6 +26,7 @@
 </head>
 <body>
   <h1> Welcome to my portfolio </h1>
+	<div>
 	<nav id="primary_nav_wrap">
   <ul>
     <li class="current-menu-item"><a href="https://tpagee.github.io/">Home</a></li>
@@ -47,8 +48,20 @@
 		</ul>
 	    </ul>
 	</ul>
-
-	</div>
+	</nav>
+		</div>
+	<div>
+		<form action="contact.php" method="post">
+    Your name<br>
+    <input type="text" name="cf_name"><br>
+    Your e-mail<br>
+    <input type="text" name="cf_email"><br>
+    Message<br>
+			<textarea name="cf_message"></textarea><br>
+    <input type="submit" value="Send">
+    <input type="reset" value="Clear">
+</form>
+			</div>
 </body>
 
 </html>
