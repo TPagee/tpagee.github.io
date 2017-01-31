@@ -6,6 +6,8 @@ body {
 div.static {
     position: relative;
 }
+p{ padding-left: 80px;
+}
 h2 {
 	text-align: left;
 }
