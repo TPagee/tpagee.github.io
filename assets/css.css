@@ -278,7 +278,7 @@ em.planet::before {
   width: 13vmin;
   height: 13vmin;
   border-radius: 50%;
-  background: black;
+  background: dark blue;
 }
 
 em.planet.left {
