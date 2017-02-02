@@ -8,22 +8,9 @@
 
   <link rel="icon" type="image/png" href="http://kanji-symbol.net/common/images/txt/int0002-gyo.gif" />
   <!-- Latest compiled and minified JavaScript -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
   <link rel="stylesheet" href="assets/projects.css" />
-	<script>$header = $('.header__fake');
-
-$(window).scroll(function() {
-
-    var scroll = $(window).scrollTop();
-
-    if (scroll > 20) {
-        $header.addClass('animated').removeClass('fix');
-    } else {
-        $header.removeClass('animated').addClass('fix');
-    }
-  
-});
-	</script>
+	
 	</head>	
 <body>
 	 	
@@ -48,7 +35,22 @@ $(window).scroll(function() {
         <h1>Tah-da!<span>Now scroll back up.</span></h1>
 
     </div>
-		
+			  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>$header = $('.header__fake');
+
+$(window).scroll(function() {
+
+    var scroll = $(window).scrollTop();
+
+    if (scroll > 20) {
+        $header.addClass('animated').removeClass('fix');
+    } else {
+        $header.removeClass('animated').addClass('fix');
+    }
+  
+});
+	</script>
+			
 			 </body>
-			 
+ 
 			 </html>
