@@ -1,7 +1,9 @@
-body {
-  background-image:url('rockett.png');
-  background-repeat: no-repeat;
-  background-size: 100%;
+html { 
+  background: url(http://maxpixel.freegreatpicture.com/static/photo/1x/Sky-Photoshop-Blue-Background-Stars-Space-Color-1436950.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 h2 {
