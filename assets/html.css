@@ -267,12 +267,12 @@ em {
 em.planet {
   -webkit-animation: planet-rotate 4s linear infinite;
   animation: planet-rotate 4s linear infinite;
-  position: relative;
+  position: fixed;
 }
 
 em.planet::before {
   content: "";
-  position: absolute;
+  position: absoloute;
   top: -.5vmin;
   left: 3.5vmin;
   z-index: -1;
