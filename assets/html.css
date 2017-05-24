@@ -108,7 +108,6 @@ html::before,
 html::after,
 body::before,
 body::after {
-  content: "";
   position: absolute;
   top: 0;
   left: 0;
