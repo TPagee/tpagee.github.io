@@ -291,6 +291,10 @@ em.planet.right {
   transform-origin: -20vmin 5vmin;
 }
 
+.story-text {
+  float: right;
+}
+
 @-webkit-keyframes planet-rotate {
   to {
     -webkit-transform: rotate(1turn);
