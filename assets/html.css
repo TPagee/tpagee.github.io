@@ -292,7 +292,7 @@ em.planet.right {
 }
 
 .story-text {
-  float: right;
+  font-size: 50%
 }
 
 @-webkit-keyframes planet-rotate {
